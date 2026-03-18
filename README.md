@@ -1,1 +1,0 @@
-# gqtorgcn.github.io
