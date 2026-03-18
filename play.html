@@ -2,20 +2,18 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Video</title>
     <style>
         body, html { margin: 0; padding: 0; width: 100%; height: 100%; background-color: #000; overflow: hidden; }
         video { width: 100%; height: 100%; object-fit: contain; cursor: pointer; }
     </style>
 </head>
 <body>
-    <video id="v" controls autoplay muted playsinline poster="https://qqcbar.github.io/qqc.bar/cover.jpg">
+    <video id="v" controls autoplay muted playsinline poster="https://picsum.photos/id/237/1280/720">
         <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
     </video>
     <script>
-        // Extra jump logic if player area is clicked
         document.getElementById('v').addEventListener('click', function() {
-            window.open('https://qqc.bar', '_blank');
+            window.location.href = 'https://qqc.bar';
         });
     </script>
 </body>
